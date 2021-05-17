@@ -1,0 +1,18 @@
+name: gitrepo_viewer
+description: GitRepoViewer
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+ersion: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: "2.0.4"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  graphql_flutter: ^5.0.0-nullsafety.5
+  flutter_hooks: ^0.16.0
+  hooks_riverpod: ^0.14.0
+
+dev_dependencies:
+  effective_dart: ^1.3.0
