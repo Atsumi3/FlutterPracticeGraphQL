@@ -12,7 +12,7 @@ class GraphQLHookScope extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    var graphQLClient = useProvider(graphQLProvider);
+    var graphQLClient = useProvider(graphQLClientNotifierProvider);
     return GraphQLProvider(
       client: graphQLClient,
       child: child,

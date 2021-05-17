@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'specific_hook_scope.dart';
+import 'graphql_hook_scope.dart';
 import 'ui/repository_list/repository_list_page.dart';
 
 void main() async {
